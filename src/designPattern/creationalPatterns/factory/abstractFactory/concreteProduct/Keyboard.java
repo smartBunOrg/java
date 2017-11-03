@@ -6,8 +6,9 @@ import designPattern.creationalPatterns.factory.abstractFactory.abstractProduct.
 public class Keyboard extends AbstractPeripheralProduct implements InputAble{
 
 	@Override
-	public void input() {
+	public void input(String content) {
 		System.out.println("This is a keyboard. Made In " + getMadeIn());
+		System.out.println("You have typed : [ " + content + " ]");
 	}
 	
 }

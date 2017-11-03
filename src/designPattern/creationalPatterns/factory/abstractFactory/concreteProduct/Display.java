@@ -6,8 +6,8 @@ import designPattern.creationalPatterns.factory.abstractFactory.abstractProduct.
 public class Display extends AbstractPeripheralProduct implements OutputAble {
 
 	@Override
-	public void output() {
+	public String output() {
 		System.out.println("This is a display. Made In " + getMadeIn());
+		return "Output a movie";
 	}
-
 }

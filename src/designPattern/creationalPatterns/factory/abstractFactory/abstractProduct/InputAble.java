@@ -1,5 +1,5 @@
 package designPattern.creationalPatterns.factory.abstractFactory.abstractProduct;
 
 public interface InputAble {
-	void input();
+	void input(String content);
 }

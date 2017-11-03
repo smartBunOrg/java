@@ -6,8 +6,9 @@ import designPattern.creationalPatterns.factory.abstractFactory.abstractProduct.
 public class VoiceBox extends AbstractPeripheralProduct implements OutputAble{
 
 	@Override
-	public void output() {
+	public String output() {
 		System.out.println("This is a voice box. Made In " + getMadeIn());
+		return "I am a voice box, I am playing music.";
 	}
 
 }

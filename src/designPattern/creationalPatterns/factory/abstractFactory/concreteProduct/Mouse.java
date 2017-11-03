@@ -6,7 +6,8 @@ import designPattern.creationalPatterns.factory.abstractFactory.abstractProduct.
 public class Mouse extends AbstractPeripheralProduct implements InputAble{
 
 	@Override
-	public void input() {
+	public void input(String content) {
 		System.out.println("This is a mouse. Made In " + getMadeIn());
+		System.out.println("You click [ " + content + " ] by mouse");
 	}
 }
