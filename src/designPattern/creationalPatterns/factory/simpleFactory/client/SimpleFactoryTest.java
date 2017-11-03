@@ -8,7 +8,6 @@ import designPattern.creationalPatterns.factory.simpleFactory.simpleFactory.Simp
  */
 public class SimpleFactoryTest {
     public static void main(String[] args) {
-        // 简单工厂模式测试
         SimpleFactory simpleFactory = new SimpleFactory();
         Apple broom = (Apple) simpleFactory.create(Apple.class);
         broom.eat();
