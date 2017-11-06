@@ -6,6 +6,7 @@ import designPattern.creationalPatterns.factory.factoryMethod.product.ProductID;
 import designPattern.creationalPatterns.factory.factoryMethod.creater.Creator;
 import designPattern.creationalPatterns.factory.factoryMethod.product.Writable;
 
+// Concrete Creator
 public class PenCreator extends Creator {
 
 	private PenCreator() {
